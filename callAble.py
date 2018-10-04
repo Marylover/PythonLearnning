@@ -6,4 +6,4 @@ class Student(object):
         print('My name is %s.'% self.name)
 
 jack = Student('Jack')
-print(jack())
+print(jack())  #为什么在最后会有一个'None'输出？
